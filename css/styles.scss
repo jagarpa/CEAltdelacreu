@@ -1,0 +1,62 @@
+$main-color: #fff;
+$section-bgcolor__yellow: #cfcc60;
+$section-bgcolor__blue: #4fa8c0;
+$section-bgcolor__green: #668664;
+$section-bgcolor__red: #8d4940;
+
+body {
+  font: normal 2em/1.5em "Helvetica Neue", Arial, sans-serif;
+  color: $main-color;
+}
+
+section {
+  &:nth-child(1) {
+    background-color: $section-bgcolor__yellow;
+  }
+  &:nth-child(2) {
+    background-color: $section-bgcolor__blue;
+  }
+  &:nth-child(3) {
+    background-color: $section-bgcolor__green;
+  }
+  &:nth-child(4) {
+    background-color: $section-bgcolor__red;
+  }
+}
+
+.fourth button {
+  margin-top: 20px;
+}
+
+p {
+  margin-bottom: 30px;
+}
+
+#fp-nav ul li a span {
+  background: $main-color;
+}
+
+img {
+  margin: 0 auto;
+}
+
+.logo {
+  display: inline-block !important;
+  margin: 0 0.5rem !important;
+  animation: rotateIn !important;
+  animation-duration: 2s !important; /* don't forget to set a duration! */
+}
+
+#menu{
+	position:fixed;
+	top:0;
+	left:0;
+	height: 40px;
+	z-index: 70;
+	width: 100%;
+	padding: 0;
+	margin:0;
+    justify-content: center !important;
+}
+
+
